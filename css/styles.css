@@ -1,10 +1,7 @@
 body {
   background: #fff;
-  font-family: "Roboto", "Raleway", sans-serif;
+
   color: #434455;
-}
-.nav {
-  color: #2e2f42;
 }
 a {
   text-decoration: none;
@@ -15,9 +12,12 @@ ul {
 .logo {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.color-logo {
+  color: #4d5ae5;
 }
 .nav {
   font-weight: 500;
@@ -37,15 +37,15 @@ ul {
 .solutions {
   background: #2e2f42;
 }
-h1 {
+.title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 .button {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -80,25 +80,25 @@ h2 {
 .our-team {
   background: #f4f4fd;
 }
-footer {
+.footer {
   background: #2e2f42;
 }
-footer p {
+.footer p {
   color: #f4f4fd;
 }
 
-footer .logo {
+.footer .logo {
   color: #f4f4fd;
 }
-.nav a:hover {
+.navitem a:hover {
   color: #404bbf;
 }
-.nav a:active {
+.navitem a:active {
   text-decoration: underline;
 }
 .address a:hover {
   color: #404bbf;
 }
-.button:hover {
-  background: #404bbf;
+.address a:active {
+  color: #404bbf;
 }
