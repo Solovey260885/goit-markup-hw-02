@@ -1,0 +1,104 @@
+body {
+  background: #fff;
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #434455;
+}
+.nav {
+  color: #2e2f42;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.nav {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.address a {
+  color: #434455;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.solutions {
+  background: #2e2f42;
+}
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background: #4d5ae5;
+  cursor: pointer;
+}
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+}
+.our-team {
+  background: #f4f4fd;
+}
+footer {
+  background: #2e2f42;
+}
+footer p {
+  color: #f4f4fd;
+}
+
+footer .logo {
+  color: #f4f4fd;
+}
+.nav a:hover {
+  color: #404bbf;
+}
+.nav a:active {
+  text-decoration: underline;
+}
+.address a:hover {
+  color: #404bbf;
+}
+.button:hover {
+  background: #404bbf;
+}
