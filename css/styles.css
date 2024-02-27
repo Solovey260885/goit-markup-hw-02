@@ -27,7 +27,7 @@ ul {
 .nav-item:hover {
   color: #404bbf;
 }
-.nav-item:hover {
+.nav-item:active {
   color: #404bbf;
 }
 
@@ -38,6 +38,9 @@ ul {
   color: #404bbf;
 }
 
+.contact-link:active {
+  color: #404bbf;
+}
 .nav-item {
   font-weight: 500;
   font-size: 16px;
@@ -45,8 +48,10 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.contact-link {
+.contact {
   font-style: normal;
+}
+.contact-link {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -76,7 +81,10 @@ ul {
   background: #4d5ae5;
   cursor: pointer;
 }
-.btn:hover,
+
+.btn:hover {
+  background: #404bbf;
+}
 .btn:active {
   background: #404bbf;
 }
@@ -106,6 +114,9 @@ ul {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  background-color: #ffffff;
+}
+.team-item {
   background-color: #ffffff;
 }
 .team-subtitle {
