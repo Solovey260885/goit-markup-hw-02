@@ -29,6 +29,7 @@ ul {
 }
 .nav-item:focus {
   color: #404bbf;
+  text-decoration: underline;
 }
 
 .nav-item:active {
@@ -38,7 +39,7 @@ ul {
   color: #404bbf;
 }
 
-.contact-link:active {
+.contact-link:focus {
   color: #404bbf;
 }
 .nav-item {
